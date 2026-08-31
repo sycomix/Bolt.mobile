@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "types": [
       "@remix-run/cloudflare",
       "vite/client",
       "@cloudflare/workers-types/2023-07-01",
-      "@types/dom-speech-recognition",
-      "electron"
+      "@types/dom-speech-recognition"
     ],
     "isolatedModules": true,
     "esModuleInterop": true,
@@ -22,10 +25,13 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": [
+        "./app/*"
+      ]
     },
     // vite takes care of building everything, not tsc
-    "noEmit": true
+    "noEmit": true,
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "**/*.ts",

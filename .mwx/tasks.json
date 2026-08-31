@@ -1,0 +1,26 @@
+[
+  {
+    "id": "task-1",
+    "title": "Scaffold Android project structure (Gradle, modules, packages)",
+    "description": "",
+    "status": "completed",
+    "priority": "high",
+    "tags": [],
+    "createdAt": "2026-08-31T01:23:40.631Z",
+    "updatedAt": "2026-08-31T01:58:11.319Z",
+    "notes": [],
+    "completedAt": "2026-08-31T01:58:11.319Z"
+  },
+  {
+    "id": "task-2",
+    "title": "Scaffold Android project structure (Gradle, modules, packages)",
+    "description": "",
+    "status": "completed",
+    "priority": "high",
+    "tags": [],
+    "createdAt": "2026-08-31T01:23:49.623Z",
+    "updatedAt": "2026-08-31T01:39:11.972Z",
+    "notes": [],
+    "completedAt": "2026-08-31T01:39:11.972Z"
+  }
+]
